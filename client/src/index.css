@@ -40,7 +40,7 @@ button{
 @import url("./components/mainpages/products/product.css");
 
 /* ---------------- Detail Product --------------- */
-/* @import url("./components/mainpages/detailProduct/detailProduct.css"); */
+@import url("./components/mainpages/detailProduct/detailProduct.css");
 
 /* ------------- Login/Register ----------------- */
 /* @import url("./components/mainpages/auth/login.css"); */

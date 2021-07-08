@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
 import {Switch, Route} from 'react-router-dom'
 import Products from './products/Products'
-// import DetailProduct from './detailProduct/DetailProduct'
+import DetailProduct from './detailProduct/DetailProduct'
 import Login from './auth/Login'
 import Register from './auth/Register'
 // import OrderHistory from './history/OrderHistory'
@@ -18,6 +18,8 @@ function Pages() {
   return (
     <Switch>
       <Route path="/" exact component={Products} />
+      <Route path="/detail/:id" exact component={DetailProduct} />
+
       <Route path="/login" exact component={Login} />
       <Route path="/register" exact component={Register} />
       <Route path="/cart" exact component={Cart} />
