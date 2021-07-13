@@ -52,7 +52,7 @@ button{
 @import url("./components/mainpages/categories/categories.css");
 
 /* ------------------- Create Product -------------- */
-/* @import url("./components/mainpages/createProduct/createProduct.css"); */
+@import url("./components/mainpages/createProduct/createProduct.css");
 
 /* ----------------- Responsive ------------------ */
 @media (max-width: 820px){

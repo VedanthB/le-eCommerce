@@ -7,7 +7,7 @@ import Register from "./auth/Register";
 import Cart from "./cart/Cart";
 import NotFound from "./utils/not_found/NotFound";
 import Categories from "./categories/Categories";
-// import CreateProduct from "./createProduct/CreateProduct";
+import CreateProduct from "./createProduct/CreateProduct";
 
 import { GlobalState } from "../../GlobalState";
 
@@ -33,7 +33,7 @@ function Pages() {
         exact
         component={isAdmin ? Categories : NotFound}
       />
-      {/* <Route
+      <Route
         path="/create_product"
         exact
         component={isAdmin ? CreateProduct : NotFound}
@@ -42,7 +42,7 @@ function Pages() {
         path="/edit_product/:id"
         exact
         component={isAdmin ? CreateProduct : NotFound}
-      /> */}
+      />
 
      
 
