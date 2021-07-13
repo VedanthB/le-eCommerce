@@ -38,9 +38,6 @@ function Header() {
     return (
       <>
         <li>
-          <Link to="/history">History</Link>
-        </li>
-        <li>
           <Link to="/" onClick={logoutUser}>
             Logout
           </Link>
@@ -61,7 +58,7 @@ function Header() {
 
       <div className="logo">
         <h1>
-          <Link to="/">{isAdmin ? "Admin" : "DevAT Shop"}</Link>
+          <Link to="/">{isAdmin ? "Admin" : "Client Shop"}</Link>
         </h1>
       </div>
 
