@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import ParticlesBg from "particles-bg";
 
 function Register() {
   const [user, setUser] = useState({
@@ -64,6 +65,8 @@ function Register() {
           <Link to="/login">Login</Link>
         </div>
       </form>
+
+      <ParticlesBg type="random" bg={true} />
     </div>
   );
 }
