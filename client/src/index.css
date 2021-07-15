@@ -55,6 +55,9 @@ button {
 /* ------------------- Create Product -------------- */
 @import url("./components/mainpages/createProduct/createProduct.css");
 
+/* --------------- History ------------------- */
+@import url("./components/mainpages/history/history.css");
+
 /* ----------------- Responsive ------------------ */
 @media (max-width: 820px) {
   header .logo {
