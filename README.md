@@ -1,6 +1,7 @@
 > Ecommerce website built with the MERN stack with React Context API for state management, pure CSS for style
 
 ## Demo: https://mean-ecom.herokuapp.com
+## Demo video: https://www.youtube.com/watch?v=xhkw3_aeoJc
 
 ## Tech:
 <b>Frontned</b>: Reactjs
